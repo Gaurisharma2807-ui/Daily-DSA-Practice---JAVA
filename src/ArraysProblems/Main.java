@@ -33,7 +33,7 @@ public class Main {
         }
         return false;
     }
-
+    // get the maxium elements from the array
     static int getMaxElement(int arr[]) {
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
@@ -45,7 +45,7 @@ public class Main {
         }
         return max;
     }
-
+    // sum of positive and negative numbers
 
     static int sumPosNeg(int arr[]) {
         int PosNum = 0;
@@ -63,7 +63,7 @@ public class Main {
         System.out.println(NegNum);
         return 1;
     }
-
+           //print counting of 1's and 0's
     static int countZeroOnes(int arr[]) {
         int zeroes = 0;
         int ones = 0;
@@ -77,7 +77,7 @@ public class Main {
         System.out.println(zeroes + "," + ones);
         return 1;
     }
-
+       // print the unsorted element
     static int unsortedElement(int arr[]) {
 
         for (int i = 0; i < arr.length; i++) {
@@ -88,7 +88,7 @@ public class Main {
         }
         return 1;
     }
-
+    // swapping alternate elements
     static int swapAlternateElement(int arr[]) {
 
         for (int i = 0; i < arr.length - 1; i += 2) {
@@ -102,7 +102,7 @@ public class Main {
         }
         return 0;
     }
-
+    // print intersection of arrays
     static int arrayIntersection(int arr1[], int arr2[]) {
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr2.length; j++) {
@@ -116,7 +116,7 @@ public class Main {
         return 0;
 
     }
-
+  // print extreme alternative elements.
     static void  printExtremeElement(int arr[]) {
         int i = 0;
         int j = arr.length - 1;
