@@ -31,7 +31,7 @@ public class ArrayManipulationTechnique {
 
     }
     static void main(){
-        int [] arr ={2,1,0,2,1,0,1};
+        int [] arr ={2,0,1,0,1,2,0,1,2,2,0,1};
         sort012(arr);
         }
 }
